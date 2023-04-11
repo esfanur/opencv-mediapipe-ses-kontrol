@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 import numpy as np
-import pyautogui
+import pyautogui   #pyauto kullanarak yapıldı burada ıstenırlırse pycaw kullanılırakta yapılabılır
 x=y=x1=y1=0
 cam=cv2.VideoCapture(0)
 myhands=mp.solutions.hands
